@@ -16,4 +16,4 @@ If that doesn't work you can install requirements manually and run
 
 
 ### Sceenshots
-![Running App]("assets/sshscreenshot.png" Log on Raspberry Pi through SSH")
+![alt text](assets/sshscreenshot.png?raw=true "SSH login on Raspberry Pi")
