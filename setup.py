@@ -4,7 +4,7 @@ setup(
     name="FMRadioApp",
     version="0.1",
     packages=find_packages(),
-    install_requires=["smbus-cffi>=0.5.1", "RPi.GPIO>=0.6.2"],
+    install_requires=["smbus-cffi>=0.5.1", "RPi.GPIO>=0.6.2", "PySide>=1.2.3"],
 
     author="Miroslav Hájek",
     author_email="mirkousko@gmail.com",
