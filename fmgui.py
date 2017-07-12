@@ -40,7 +40,7 @@ class RadioApp(QWidget):
     def left_dock_create(self):
         self.statlabel = QLabel("RSSI: --")
         self.logolabel = QLabel()
-        self.logolabel.setPixmap(QPixmap(os.path.join(script_path, "logo.png")))
+        self.logolabel.setPixmap(QPixmap(os.path.join(script_path, "assets/logo.png")))
         self.statlabel.setFont(QFont("DejaVu Sans", 12))
         
         self.btnvolba = []
@@ -48,7 +48,7 @@ class RadioApp(QWidget):
             self.btnvolba.append(QPushButton("Voľba {}".format(i)))
             
         self.presetaddbtn = QPushButton()
-        self.presetaddbtn.setIcon(QIcon(QPixmap("add.png")))
+        self.presetaddbtn.setIcon(QIcon(QPixmap("assets/add.png")))
         
         self.volbalayout = QVBoxLayout()
         self.volbalayout.addWidget(self.logolabel)
@@ -94,7 +94,7 @@ class RadioApp(QWidget):
         self.slidvol.setMaximum(100)
         self.slidvol.setValue(50)
         self.labspeaker = QLabel()
-        self.labspeaker.setPixmap(QPixmap(os.path.join(script_path, "speaker.png")))
+        self.labspeaker.setPixmap(QPixmap(os.path.join(script_path, "assets/speaker.png")))
         self.sndvolumelabel = QLabel()
 
         self.rightlayout = QVBoxLayout()
