@@ -16,5 +16,4 @@ If that doesn't work you can install requirements manually and run
 
 
 ### Sceenshots
-![alt text](https://github.com/https://github.com/etakerim/fmradio-rpi3qt/tree/master/assets/sshscreenshot.png
-"Log on Raspberry Pi through SSH")
+![Running App]("assets/sshscreenshot.png" Log on Raspberry Pi through SSH")
